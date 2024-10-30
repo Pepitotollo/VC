@@ -37,6 +37,10 @@ La variable total_people cuenta las personas detectadas. Para cada detección de
 
 Al final de la ejecución, se imprime el total de coches y personas detectados
 
+Que con el video que adjuntó el profesor, estos serían los resultados: 
+
+![recuento_personas_coches](https://github.com/user-attachments/assets/99bcd3c9-09c0-492e-820e-a529516add9e)
+
 4. Guardar un archivo CSV con la información de las detecciones.
 
 Cada detección de coche o persona se guarda en el diccionario results_list, que contiene información como el número de cuadro (frame), tipo de objeto (tipo_objeto), confianza (confianza), identificador de seguimiento (identificador_tracking), coordenadas de la caja delimitadora (x1, y1, x2, y2), y campos relacionados con la detección de matrícula.
