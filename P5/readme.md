@@ -2,6 +2,8 @@ Proyecto de Filtro Animado con Detección de Rostros y Efectos de Energía
 
 Tarea realizada por Noel Padrón Jiménez y Joel Rodríguez González
 
+Drive: https://drive.google.com/drive/folders/1YY00QwHe9IGmZkIes-seHlqaKCGcKwDM?usp=sharinghttps://drive.google.com/drive/folders/1YY00QwHe9IGmZkIes-seHlqaKCGcKwDM?usp=sharing
+
 Descripción general:
 Este proyecto utiliza OpenCV y dlib para detectar rostros en tiempo real desde la cámara web y aplicar efectos visuales. Cuando se detecta que la boca está abierta, el script aplica una distorsión en la cara y genera bolas de varios colores que se desplazan 
 por la pantalla en direcciones aleatorias.
