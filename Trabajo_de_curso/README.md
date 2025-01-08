@@ -46,7 +46,8 @@ Más allá del desarrollo técnico, también buscamos que este trabajo sea una o
 
 *(Incluye las herramientas, librerías o tecnologías que empleaste en el proyecto).*
 
-
+Nos apoyamos en fuentes de inspiración como el juego del "pong", el "flappy bird" y un juego de la serie "El juego del Calamar". Además del navegador para obtener piezas de música para los juegos o imágenes.
+En cuanto a las tecnologías usamos: Opencv, pygame y mediapipe principalmente.
 
 
 ---
@@ -61,16 +62,14 @@ Como propuesta de ampliación, consideramos que sería interesante aumentar la c
 
 ## **Indicación de Herramientas/Tecnologías con las que les hubiera gustado contar**
 
-- OpenCV 
-- Mediapipe
-- Pygame
+Quizá, algún tipo de motor gráfico potente de videojuegos para reconocimiento corporal.
 
 ---
 
 ## **Diario de Reuniones del Grupo**
 
 La forma de abordar este trabajo empezó con una lluvia de ideas de posibles juegos que realizar, siendo las primeras opciones el "Pong", un juego de puzles, un shooter sencillo. Nos repartimos los juegos y fuimos trabajando en ellos. 
-El pong lo conseguimos desarrollar sin problema, sin embargo el del puzle se nos complicó, queríamos tomar una captura y a partir de esta crear piezas y luego ordenarlo, pero no salió como esperábamos. En cuanto al shooter, la idea era hacer una pequeña diana y que detectara los disparos solo cuando se apuntase a esta, además de agregar una pistola y darle una pequeña animación, pero tras combinar estos aspectos no salió como esperamos. Así que nos pusimos a pensar en nuevos juegos que incorporar y se nos ocurrió adaptar el "Flappy bird". La otra idea surgió con el estreno de la segunda temporada de la serie del Juego del Calamar para la cual adaptamos el juego de "Luz verde, Luz roja". Ambos los desarrollamos sin problemas.
+El pong lo conseguimos desarrollar sin problema, sin embargo el del puzle se nos complicó, queríamos tomar una captura y a partir de esta crear piezas y luego ordenarlo pero a la hora de ordenarlo era complicado colocar las piezas de forma exacta, pero no salió como esperábamos. En cuanto al shooter, la idea era hacer una pequeña diana y que detectara los disparos solo cuando se apuntase a esta, además de agregar una pistola y darle una pequeña animación, pero tras combinar estos aspectos no salió como esperamos. Así que nos pusimos a pensar en nuevos juegos que incorporar y se nos ocurrió adaptar el "Flappy bird". La otra idea surgió con el estreno de la segunda temporada de la serie del Juego del Calamar para la cual adaptamos el juego de "Luz verde, Luz roja". Ambos los desarrollamos sin problemas.
 
 ---
 
