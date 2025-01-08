@@ -59,10 +59,8 @@ Como propuesta de ampliación, consideramos que sería interesante aumentar la c
 
 ## **Diario de Reuniones del Grupo**
 
-La forma de abordar este trabajo empezó con una lluvia de ideas de posibles juegos que realizar, siendo las primeras opciones:
-- El Pong
-- Un juego de puzles
-- Un shooter sencillo
+La forma de abordar este trabajo empezó con una lluvia de ideas de posibles juegos que realizar, siendo las primeras opciones el "Pong", un juego de puzles, un shooter sencillo. Nos repartimos los juegos y fuimos trabajando en ellos. 
+El pong lo conseguimos desarrollar sin problema, sin embargo el del puzle se nos complicó, queríamos tomar una captura y a partir de esta crear piezas y luego ordenarlo, pero no salió como esperábamos. En cuanto al shooter, la idea era hacer una pequeña diana y que detectara los disparos solo cuando se apuntase a esta, además de agregar una pistola y darle una pequeña animación, pero tras combinar estos aspectos no salió como esperamos. Así que nos pusimos a pensar en nuevos juegos que incorporar y se nos ocurrió adaptar el "Flappy bird". La otra idea surgió con el estreno de la segunda temporada de la serie del Juego del Calamar para la cual adaptamos el juego de "Luz verde, Luz roja". Ambos los desarrollamos sin problemas.
 
 ---
 
