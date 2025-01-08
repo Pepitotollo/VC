@@ -31,9 +31,6 @@ Más allá del desarrollo técnico, también buscamos que este trabajo sea una o
 
 ## **Descripción Técnica del Trabajo Realizado**
 
-*(Aquí iría la descripción técnica específica de lo realizado, que puedes detallar más adelante).*
-
-
 ## Juego 2
 **Flappy Head** es un videojuego interactivo que utiliza el movimiento del rostro, capturado a través de la cámara, para controlar un personaje en forma de avión. El juego combina **Pygame**, **OpenCV** y **Mediapipe**.
 
@@ -106,8 +103,6 @@ Al finalizar, el juego detiene la música, libera la cámara y cierra la ventana
 
 ## **Fuentes y Tecnologías Utilizadas**
 
-*(Incluye las herramientas, librerías o tecnologías que empleaste en el proyecto).*
-
 Nos apoyamos en fuentes de inspiración como el juego del "pong", el "flappy bird" y un juego de la serie "El juego del Calamar". Además del navegador para obtener piezas de música para los juegos o imágenes.
 En cuanto a las tecnologías usamos: Opencv, pygame y mediapipe principalmente.
 
@@ -137,5 +132,5 @@ El pong lo conseguimos desarrollar sin problema, sin embargo el del puzle se nos
 
 ## **Créditos Materiales no Originales del Grupo**
 
-- Imágenes y pista musical de la serie de Netflix *El juego del calamar*.
+Imágenes y pista musical de la serie de Netflix *El juego del calamar*.
 
