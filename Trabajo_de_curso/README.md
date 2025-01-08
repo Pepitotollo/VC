@@ -39,6 +39,12 @@ Más allá del desarrollo técnico, también buscamos que este trabajo sea una o
 
 *(Incluye las herramientas, librerías o tecnologías que empleaste en el proyecto).*
 
+![Avión](files/avion.png)
+![Avión](files/avion.png)
+![Avión](files/avion.png)
+![Avión](files/avion.png)
+
+
 ---
 
 ## **Conclusiones y Propuestas de Ampliación**
