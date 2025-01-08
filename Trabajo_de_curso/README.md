@@ -1,6 +1,6 @@
 # CAMPLAY
 
-![Carátula del trabajo](Trabajo_de_curso/files/caratula_trabajo_cuadrada.png)
+![caratula](Trabajo_de_curso/files/caratula.png)
 
 ## Índice
 
