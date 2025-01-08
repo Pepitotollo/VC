@@ -33,12 +33,74 @@ Más allá del desarrollo técnico, también buscamos que este trabajo sea una o
 
 *(Aquí iría la descripción técnica específica de lo realizado, que puedes detallar más adelante).*
 
+
+## Juego 2
+**Flappy Head** es un videojuego interactivo que utiliza el movimiento del rostro, capturado a través de la cámara, para controlar un personaje en forma de avión. El juego combina **Pygame**, **OpenCV** y **Mediapipe**.
+
+### Resumen de Funcionamiento
+1. **Detección Facial**: usando Mediapipe, el rostro se detecta en tiempo real, y su posición vertical controla el movimiento del avión.
+2. **Obstáculos Dinámicos**: se generan columnas con alturas y espacios aleatorios que se desplazan a velocidad creciente.
+3. **Colisiones**: si el avión choca con un obstáculo o toca el suelo, el jugador pierde una vida. El juego termina al perder las tres vidas.
+4. **Puntuación**: la puntuación aumenta con el tiempo sobrevivido y se guarda el récord más alto.
+5. **Gráficos y Sonido**: pygame renderiza el paisaje, el avión y los obstáculos, además de reproducir música de fondo.
+
+### Recursos
+- **Imagen del avión**
+
 ![Avión](files/avion.png)
+
+  
+- **Música de fondo**
+
+- **Imagen del juego**
+
 ![Juego_Avión](files/juego_avion.png)
-![Calamar1](files/LVLR_inicio.png)
-![Calamar2](files/LVLR_verde.png)
-![Calamar3](files/LVLR_rojo.png)
-![Calamar4](files/LVLR_disparo.png)
+
+El juego finaliza liberando los recursos de la cámara y cerrando la ventana de manera segura.
+
+## Juego 3
+
+**Luz Verde, Luz Roja**
+
+Este proyecto recrea una versión interactiva del desafío "Luz Verde, Luz Roja" de la serie "El Juego del Calamar", utilizando el parpadeo de los ojos como control principal.
+
+### Funcionamiento Técnico
+1. **Control por parpadeo**: 
+   - El juego detecta parpadeos en tiempo real usando **Mediapipe** y la cámara del ordenador.
+   - Parpadear durante la luz verde aumenta la barra de progreso. 
+   - Parpadear durante la luz roja activa una animación de disparo y termina el juego.
+
+2. **Estados del Juego**: 
+   - **Cuenta Atrás**: el juego inicia con una cuenta regresiva.
+     
+   ![Calamar1](files/LVLR_inicio.png)
+   
+   - **Luz Verde**: Los parpadeos avanzan hacia la victoria.
+     
+   ![Calamar2](files/LVLR_verde.png)
+
+   - **Luz Roja**: No puedes parpadear.
+
+   ![Calamar3](files/LVLR_rojo.png)
+     
+   - **Luz Roja**: Parpadear significa perder.
+
+   ![Calamar4](files/LVLR_disparo.png)
+
+3. **Gráficos y Sonido**:
+   - Imágenes y sonidos como fondo para representar las luces y el disparo.
+   - Música de fondo: `El Juego del Calamar Música, Voces, Coro.mp3`.
+   - Sonido de disparo: `disparo.mp3`.
+
+4. **Game Over y Victoria**:
+   - Perder: Aparece un mensaje de "GAME OVER!" y la animación de disparo.
+   - Ganar: Se muestra el mensaje "¡Juego Superado!" al completar la barra de progreso.
+
+### Requisitos
+- Librerías: `pygame`, `cv2`, `mediapipe`
+
+### Liberación de Recursos
+Al finalizar, el juego detiene la música, libera la cámara y cierra la ventana de manera segura.
 
 ---
 
