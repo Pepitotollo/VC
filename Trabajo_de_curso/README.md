@@ -33,16 +33,20 @@ Más allá del desarrollo técnico, también buscamos que este trabajo sea una o
 
 *(Aquí iría la descripción técnica específica de lo realizado, que puedes detallar más adelante).*
 
+![Avión](files/avion.png)
+![Juego_Avión](files/juego_avion.png)
+![Calamar1](files/LVLR_inicio.png)
+![Calamar2](files/LVLR_verde.png)
+![Calamar3](files/LVLR_rojo.png)
+![Calamar4](files/LVLR_disparo.png)
+
 ---
 
 ## **Fuentes y Tecnologías Utilizadas**
 
 *(Incluye las herramientas, librerías o tecnologías que empleaste en el proyecto).*
 
-![Avión](files/avion.png)
-![Avión](files/avion.png)
-![Avión](files/avion.png)
-![Avión](files/avion.png)
+
 
 
 ---
