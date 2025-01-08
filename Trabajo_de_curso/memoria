@@ -1,30 +1,18 @@
 Motivación/argumentación del trabajo
 
-La asignatura de visión por computador ofrece un marco teórico y práctico para comprender y desarrollar aplicaciones que hagan uso de la cámara como herramienta de interacción y análisis del entorno. Inspirados por esta temática, decidimos aprovechar las 
-posibilidades que brinda la visión por computador para llevar a cabo un proyecto que combine tecnología, creatividad y entretenimiento.
-Desde el inicio, nuestro objetivo fue diseñar un trabajo que reflejara una aplicación práctica y accesible de los conocimientos adquiridos en la asignatura. Así surgía la idea de crear un portal de videojuegos sencillos, interactivos y controlados mediante 
-la cámara de nuestros equipos. Este enfoque nos permitió no solo experimentar con conceptos clave como el reconocimiento de gestos y movimientos, sino también explorar cómo estas técnicas pueden integrarse en un entorno lúdico.
-Nuestra motivación principal fue desarrollar una herramienta que ilustrara el potencial de la visión por computador en aplicaciones reales, al mismo tiempo que nos brindara la oportunidad de aprender mientras creábamos algo original y divertido.
+Cuando comenzamos a pensar en la idea para el trabajo de curso de esta asignatura, consideramos varias opciones. Finalmente, nos decantamos por una propuesta que nos permitiera aplicar los conocimientos adquiridos en clase y, al mismo tiempo, fuera entretenida y 
+estimulante para desarrollar con ayuda de nuestra creatividad. Fue así como surgía la idea de diseñar un portal de videojuegos sencillos e interactivos que aprovecharan los conceptos y herramientas vistas en clase.
 
-Cuando comenzamos esta asignatura de visión por computador, nos entusiasmó la idea de explorar el potencial de las cámaras más allá de su uso cotidiano. Queríamos llevar lo aprendido al siguiente nivel, crear algo que no solo demostrara nuestras habilidades, 
-sino que también fuera divertido y emocionante. Fue así como se nos ocurrió diseñar un portal de videojuegos interactivos que aprovecharan los conceptos y herramientas vistas en clase.
-La idea de utilizar la cámara como el principal medio de interacción nos pareció fascinante, porque abre la puerta a formas más naturales y creativas de interactuar con la tecnología. Imaginamos cómo podríamos aplicar el reconocimiento de gestos y movimientos 
-para darle vida a juegos clásicos y, al mismo tiempo, demostrar cómo la visión por computador puede integrarse en aplicaciones cotidianas. Este proyecto nos motivó porque combina aprendizaje, creatividad y entretenimiento en una experiencia única.
-
-Cuando comenzamos esta asignatura de visión por computador, nos entusiasmó la idea de explorar el potencial de las cámaras más allá de su uso cotidiano. Ya que la asignatura se llama visión por computador, queríamos hacer uso de la cámara para nuestro trabajo, 
-y se nos ocurrió que podíamos aplicar algunos de los conocimientos vistos en clase realizando un pequeño portal de videojuegos sencillos que funcionaran a través de la cámara de nuestros equipos.
-
-La idea de utilizar la cámara como el principal medio de interacción nos pareció fascinante, porque abre la puerta a formas más naturales y creativas de interactuar con la tecnología. Imaginamos cómo podríamos aplicar el reconocimiento de gestos y movimientos para 
-darle vida a juegos clásicos y, al mismo tiempo, demostrar cómo la visión por computador puede integrarse en aplicaciones cotidianas. Este proyecto nos motivó porque combina aprendizaje, creatividad y entretenimiento en una experiencia única.
-
+La idea de utilizar la cámara como el principal medio de interacción nos pareció interesante y desafiante. Nos propusimos adaptar juegos clásicos, como el icónico Pong, haciéndolos funcionales como en sus versiones originales. 
+Además, decidimos incluir otros juegos inspirados en ideas existentes y también crear algunos originales. Este proyecto nos motivó especialmente porque combina aprendizaje, creatividad y entretenimiento, brindándonos la oportunidad de demostrar lo que podemos 
+lograr aplicando visión por computador.
 
 Objetivo de la propuesta
 
-Nuestro objetivo principal es transformar algunos juegos clásicos, como el icónico Pong, en experiencias completamente nuevas adaptadas al control por cámara. Queremos que el usuario pueda interactuar con los juegos mediante gestos o movimientos, haciendo que
-la cámara sea el puente entre ellos y el mundo virtual. Este desafío nos permite profundizar en el uso de sistemas de visión por computador, mientras exploramos cómo estos pueden aplicarse para crear una experiencia entretenida y tecnológicamente avanzada.
+Nuestro objetivo principal es transformar y adaptar algunos juegos clásicos, como el icónico Pong, así como diseñar juegos originales, en experiencias completamente nuevas adaptadas al control por cámara. Queremos que el usuario interactúe con los juegos mediante 
+gestos o movimientos, haciendo que la cámara sea el puente entre ellos y el mundo virtual. Además, nos esforzamos por diversificar la jugabilidad de cada juego, introduciendo diferentes gestos o partes del cuerpo para interactuar con ellos.
 
-Más allá del desarrollo técnico, también buscamos que este trabajo sea una oportunidad para disfrutar el proceso de aprendizaje y compartir algo innovador con quienes lo experimenten. Queremos demostrar que la visión por computador no tiene por qué ser compleja
-o distante; puede ser divertida, accesible y una fuente de creatividad. Este proyecto no solo es una tarea académica, sino también una forma de inspirar a otros a explorar lo que se puede lograr con tecnologías emergentes.
+Más allá del desarrollo técnico, también buscamos que este trabajo sea una oportunidad para disfrutar el proceso de aprendizaje y compartir algo innovador con quienes lo experimenten. 
 
 Descripción técnica del trabajo realizado
 
@@ -35,11 +23,21 @@ Fuentes y tecnologías utilizadas
 
 Conclusiones y propuestas de ampliación
 
+Creemos que el desarrollo de videojuegos a través de la cámara es un campo con un enorme potencial que podría ser ampliamente explotado en los próximos años. Con los avances constantes en tecnologías de visión por computador y aprendizaje automático, estamos 
+convencidos de que veremos progresos significativos en este terreno, donde la interacción con la tecnología será más intuitiva y natural.
+
+Como propuesta de ampliación, consideramos que sería interesante aumentar la cantidad de juegos disponibles en el portal, dividiéndolos en categorías temáticas o de dificultad. Además, podríamos incorporar juegos que reconozcan el cuerpo completo del usuario, 
+permitiendo una experiencia más inmersiva y divertida. Este enfoque podría abrir nuevas oportunidades tanto en el ámbito del entretenimiento como en aplicaciones educativas y terapéuticas, mostrando cómo la visión por computador puede integrarse en diferentes 
+aspectos de la vida cotidiana.
 
 Indicación de herramientas/tecnologías con las que les hubiera gustado contar
 
+Opencv + mediapipe + pygame
 
 Diario de reuniones del grupo
 
+La forma de abordar este trabajo empezó con una lluvia de ideas de posibles juegos que realizar, siendo las primeras opciones "el pong", un "juego de puzles" y un "shooter sencillo"
 
 Créditos materiales no originales del grupo
+
+Imágenes y pista musical de la serie de Netflix "El juego del calamar".
