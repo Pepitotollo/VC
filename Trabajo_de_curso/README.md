@@ -31,6 +31,35 @@ Más allá del desarrollo técnico, también buscamos que este trabajo sea una o
 
 ## **Descripción Técnica del Trabajo Realizado**
 
+## Menú
+
+1. **Selección de juego**:
+   - Se muestra un menú principal donde puedes elegir entre jugar o salir.
+     
+2. **Pausa**:
+   - Se implementa una pausa que puede ser activada presionando la tecla ESC.
+
+![Menu](files/menu.png)
+
+## Juego 1
+
+**Pong** es un videojuego interactivo que emula el mítico pong siendo los "palos" que hacen de porterías las manos del jugador o jugadores detectadas por cámara 
+
+1. **Interfaz de usuario y configuraciones iniciales**:
+   - Usando pygame para mostrar la interfaz del juego.
+   - Configura la pantalla y los sonidos, como música de fondo y efectos para rebotes, goles y paredes
+     
+2. **Captura y procesamiento de la cámara**:
+   - Usa OpenCV para capturar la imagen de la cámara y convertirla a un formato que Pygame pueda manejar.
+   - Mediapipe se usa para detectar las manos en el video de la cámara y controlar las plataformas del juego según los movimientos 
+     de las manos.
+
+3. **Lógica del juego**:
+   - La pelota rebota entre los bordes superior e inferior y las plataformas de los jugadores (representadas por las manos)
+   - Se gestionan las colisiones entre la pelota y las plataformas, y se incrementa la velocidad de la pelota después de un número 
+     determinado de rebotes.
+   - Se enseña el marcador de los jugadores y se muestra cuando alguien marca un gol.
+
 ## Juego 2
 **Flappy Head** es un videojuego interactivo que utiliza el movimiento del rostro, capturado a través de la cámara, para controlar un personaje en forma de avión. El juego combina **Pygame**, **OpenCV** y **Mediapipe**.
 
@@ -93,8 +122,41 @@ Este proyecto recrea una versión interactiva del desafío "Luz Verde, Luz Roja"
    - Perder: Aparece un mensaje de "GAME OVER!" y la animación de disparo.
    - Ganar: Se muestra el mensaje "¡Juego Superado!" al completar la barra de progreso.
 
-### Requisitos
-- Librerías: `pygame`, `cv2`, `mediapipe`
+### Liberación de Recursos
+Al finalizar, el juego detiene la música, libera la cámara y cierra la ventana de manera segura.
+
+---
+## Juego 4
+
+**Hand/Fist/Dash**
+
+Este juego es una version inspirada en el juego geometry dash, pero se maneja al abrir y cerrar la mano.
+
+![Juego4](files/juego4_fondo.png)
+
+1. **Control por movimiento de la mano**: 
+   - El juego detecta el abrir y cerrar de la mano en tiempo real usando **Mediapipe** y la cámara del ordenador.
+   - Abrir la mano implica dar un salto
+
+2. **Obstáculos**:
+   -Se generan con un tamaño y distancia aleatorias.
+
+3. **Jugador**:
+   -Se trata de un cuadrado personalizado con una foto del jugador tomada antes de iniciar el juego.
+
+4. **Colisión**:
+   - Al chocar con un obstáculo se abre un menu con las opciones de volver a jugar o salir del juego.
+   - Además el menu muestra el tiempo que has durado hasta colisionar.
+
+![Juego4_menu](files/juego4_menu.png)
+   
+5. **Cuenta Atrás**:
+   -Tras leer las instrucciones y pulsar cualquier tecla, el juego inicia con una cuenta regresiva.
+     
+
+6. **Gráficos y Sonido**:
+   - Imágenes y sonidos como fondo para decorar.
+   - Música de fondo
 
 ### Liberación de Recursos
 Al finalizar, el juego detiene la música, libera la cámara y cierra la ventana de manera segura.
@@ -103,9 +165,8 @@ Al finalizar, el juego detiene la música, libera la cámara y cierra la ventana
 
 ## **Fuentes y Tecnologías Utilizadas**
 
-Nos apoyamos en fuentes de inspiración como el juego del "pong", el "flappy bird" y un juego de la serie "El juego del Calamar". Además del navegador para obtener piezas de música para los juegos o imágenes.
+Nos apoyamos en fuentes de inspiración como el juego del "pong", el "flappy bird", el "geometry dash" y un juego de la serie "El juego del Calamar". Además del navegador para obtener piezas de música para los juegos o imágenes.
 En cuanto a las tecnologías usamos: Opencv, pygame y mediapipe principalmente.
-
 
 ---
 
