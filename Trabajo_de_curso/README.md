@@ -33,13 +33,19 @@ Más allá del desarrollo técnico, también buscamos que este trabajo sea una o
 
 ## Menú
 
-1. **Selección de juego**:
+1. **Selección de modo de juego**:
    - Se muestra un menú principal donde puedes elegir entre jugar o salir.
-     
+      
+![Menu1](files/menu_pricipal.png)
+
+![Menu2](files/menu_un_jugador.png)
+
+![Menu3](files/menu_dos_jugadores.png)
+
 2. **Pausa**:
    - Se implementa una pausa que puede ser activada presionando la tecla ESC.
 
-![Menu](files/menu.png)
+![Menu4](files/menu_pausa.png)
 
 ## Juego 1
 
