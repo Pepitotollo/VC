@@ -43,6 +43,8 @@ Más allá del desarrollo técnico, también buscamos que este trabajo sea una o
 
 ## Juego 1
 
+![Pong](files/pong.png)
+
 **Pong** es un videojuego interactivo que emula el mítico pong siendo los "palos" que hacen de porterías las manos del jugador o jugadores detectadas por cámara 
 
 1. **Interfaz de usuario y configuraciones iniciales**:
